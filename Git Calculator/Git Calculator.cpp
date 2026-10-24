@@ -23,17 +23,17 @@ int main() {
 	std::cout << "\n";
 	switch (menu) {
 	case 1:
-		std::cout << "Addition = " << number1 + number2;
+		std::cout << "Addition = " << number1 + number2 << "\n";
 		break;
 	case 2:
-		std::cout << "Subtraction = " << number2 - number1;
+		std::cout << "Subtraction = " << number2 - number1<<"\n";
 		break;
 	case 3:
-		std::cout << "Multiplication = " << number1 * number2;
+		std::cout << "Multiplication = " << number1 * number2 << "\n";
 		break;
 	case 4:
 		if (number2 != 0) {
-			std::cout << "Division = " << number1 / number2;
+			std::cout << "Division = " << number1 / number2 << "\n";
 			break;
 		}
 		else {
